@@ -34,10 +34,14 @@ CSS selectors for the child elements
 
 1. Set the folder where you installed the script as your current directory and activate the virtual environment with the following commands via Terminal:
 
-```virtualenv venv```
+    ```virtualenv venv```
 
-```. venv/bin/activate```
+    ```. venv/bin/activate```
 
-2. Run the script with the following command on the Terminal. You can use `export.json` or `export.csv` depending which format you want to use on your site.
+2. Install scrapy
 
-```scrapy runspider spider.py -o export.json```
+    ```pip3 install scrapy```
+
+3. Run the script with the following command on the Terminal. You can use `export.json` or `export.csv` depending which format you want to use on your site.
+
+    ```scrapy runspider spider.py -o export.json```
