@@ -32,7 +32,9 @@ CSS selectors for the child elements
 
 # Run the script
 
-1. Set the folder where you installed the script as your current directory and activate the virtual environment with the following command via Terminal:
+1. Set the folder where you installed the script as your current directory and activate the virtual environment with the following commands via Terminal:
+
+```virtualenv venv```
 
 ```. venv/bin/activate```
 
